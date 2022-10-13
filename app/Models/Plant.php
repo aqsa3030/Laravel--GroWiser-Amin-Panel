@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Plant extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+    'common_name',
+    'botanical_name',
+    'plant_description',
+    'temperature',
+    'max_temperature',
+    'humidity',
+    'max_humidity',
+    'soil_ph',
+    'max_soil_ph',
+    'Min_Light',
+    'Max_Light',
+    'nitrogen',
+    'phosphorus',
+    'potassium',
+    'plant_type',
+    'plant_image',
+
+  ];
+}
